@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --newspaper-200: #F5F5F5;
+    --newspaper-300: #E0E0E0;
+}
+
+body {
+    background: var(--newspaper-200);
+    font-family: 'Times New Roman', serif;
+}

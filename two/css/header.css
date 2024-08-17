@@ -1,0 +1,38 @@
+.header {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 10% auto 40%;
+}
+
+.header-one 
+{
+    padding-left: 0.5rem;
+}
+
+.header-two {
+    text-align: left;
+}
+
+.header-three {
+    text-align: end;
+    padding-right: 0.5rem;
+}
+
+.header-four {
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+.header-five {
+    text-align: right;
+    padding-right: 0.5rem;
+    font-size: x-large;
+}
+
+.header-six {
+   padding-top: 1rem;
+}
+
+.header-four, .header-five, .header-six {
+    margin-top: 3rem;
+}

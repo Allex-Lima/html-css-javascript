@@ -1,0 +1,160 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+/* INÍCIO ARTICLE-HEADER */
+
+.article-header {
+    grid-column: 1/4;
+}
+
+.article-header-00 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    margin-bottom: 1rem;
+}
+/* INÍCIO ARTICLE-00 */
+.article-00 {
+    grid-column: 1/4;
+
+    margin-bottom: 3rem;
+}
+
+
+.article-00-sub {
+    display: flex;
+    align-items: center;
+}
+
+.article-00-one {
+    width: 10%;
+    font-size: .8rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+
+}
+
+.article-00-two {
+    width: 70%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.article-00-three {
+    width: 70%;
+    margin-top: 1rem;
+}
+/* ===================================== */
+.article-01 {
+    grid-column: 1/2;
+}
+
+.frame-biblio {
+    margin-left: .5rem;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+.frame-biblio p, ul li {
+    padding: .5rem;
+}
+
+.article-01  h3 {
+   text-align: center;
+   padding: .5rem;
+
+   background: gray;
+   color: #fff;
+}
+
+/* INÍCIO ARTICLE-02 */
+
+img {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    border-radius: 12px;
+}
+.article-02 {
+    grid-column: 2/3;
+}
+
+.article-02 > p {
+    padding: .5rem;
+}
+.article-02 > h3 {
+    font-size: 3rem;
+    padding: .5rem;
+    text-align: center;
+
+}
+
+.article-02-img {
+   margin-bottom: 2rem;
+}
+
+.article-02-img > p {
+    text-align: right;
+    font-size: .8rem;
+}
+.article-02-img strong {
+    margin-left: .5rem;
+}
+/* FIM ARTICLE-02 */
+
+/* INÍCIO ARTICLE-03*/
+
+.article-03 {
+    grid-column: 3/4;
+}
+
+.article-03 h3 {
+    text-align: center;
+    padding: .5rem;
+
+    background: gray;
+    color: #fff;
+}
+.article-03 p {
+    text-align: left;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+
+
+/* FIM ARTICLE-03 */
+
+
+/* INÍCIO ARTICLE-05*/
+
+.article-05 {
+    grid-column: 2/5;
+    position: absolute;
+    width: 80%;
+    height: 25%;
+}
+
+.article-05 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.one {
+    grid-column: 1/2;
+    text-align: justify;
+    padding: .7rem;
+}
+.two {
+    grid-column: 2/2;
+
+    text-align: justify;
+    padding: .7rem;
+}
+.three {
+    grid-column: 3/3;
+    text-align: justify;
+    padding: .7rem;
+}
